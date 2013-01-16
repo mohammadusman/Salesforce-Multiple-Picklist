@@ -1,3 +1,7 @@
+<!--
+    @Auther: Mohammad Usman
+    @Version: 1.0
+-->
 <apex:component >
 <apex:attribute name="leftPickList" description="Left PickList Values" type="selectOption" required="true"/>
 <apex:attribute name="rightPickList" description="Right PickList Values" type="selectOption" required="true"/>
