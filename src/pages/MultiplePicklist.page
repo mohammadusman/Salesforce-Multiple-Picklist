@@ -1,0 +1,12 @@
+<apex:page controller="MultiplePicklist" sidebar="false">
+    <apex:sectionHeader subtitle="Multiple Select Picklist" title="Demo"/>
+    <apex:form >
+        <apex:pageBlock >           
+            <c:multiSelectPicklist leftPickList="{!AllLeftOptions}" rightPickList="{!rightOptions}" getSelectedValues="{!selectedValues}" />
+            <apex:commandButton action="{!clickMe}" value="Click Me !" reRender="pg"/>
+            <apex:outputPanel id="pg">
+                [{!selectedValues}]
+            </apex:outputPanel>             
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

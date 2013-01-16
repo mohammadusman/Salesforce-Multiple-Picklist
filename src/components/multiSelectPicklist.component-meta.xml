@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>24.0</apiVersion>
+    <description>This component is used to select multiple or single value from left pick list to  right pick list.</description>
+    <label>multiSelectPicklist</label>
+</ApexComponent>
