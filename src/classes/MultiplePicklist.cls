@@ -1,7 +1,8 @@
+/*
+    @Auther: Mohammad Usman
+    @Version: 1.0
+*/
 public with sharing class MultiplePicklist {
-    public PageReference clickMe() {        
-        return null;
-    }
 
     public list<selectOption> leftOptions{get;set;}
     public list<selectOption> rightOptions{get;set;}
@@ -16,5 +17,8 @@ public with sharing class MultiplePicklist {
             leftOptions.add(new selectOption(allUser.Id,allUser.Name));
         }
         return leftOptions;
+    }
+    public PageReference clickMe() {        
+        return null;
     }
 }
