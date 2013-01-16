@@ -1,3 +1,7 @@
+<!--
+    @Auther: Mohammad Usman
+    @Version: 1.0
+-->
 <apex:page controller="MultiplePicklist" sidebar="false">
     <apex:sectionHeader subtitle="Multiple Select Picklist" title="Demo"/>
     <apex:form >
